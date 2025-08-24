@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MotoGP + Omar Montes</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:24px;line-height:1.4}
+    header,footer{margin-bottom:16px}
+    .win-btn{display:inline-flex;align-items:center;gap:12px;padding:12px 16px;
+             border:2px solid #222;border-radius:12px;background:#f7f7f7;cursor:pointer}
+    .win-btn img{height:48px;width:auto}
+    #status{font-size:1.25rem;margin:12px 0;display:block}
+  </style>
+</head>
+<body>
+  <header><h1>Esto es MOTO GP!!!!!</h1></header>
+
+  <main>
+    <p>Pincha abajo y saborea la victoria!</p>
+
+    <!-- Botón de victoria -->
+    <button id="winBtn" class="win-btn" type="button" aria-label="Ganar carrera">
+      <img src="Moto_Gp_logo.png" alt="Logo MotoGP">
+      <span>¡Haz ganao la carrera!</span>
+    </button>
+
+    <strong id="status" hidden></strong>
+
+    <!-- Reproductor: Omar Montes -->
+    <audio id="song" controls preload="metadata" src="audio.mp3">
+      Tu navegador no soporta audio.
+    </audio>
+  </main>
+
+  <footer><p>Derechos Reservados (https://www.motogp.com/es)</p></footer>
+
+  <script>
+    const phrase = "has ganado tioo!!!!!!!!!!!!!!!";
+    const player = document.getElementById("song");
+    const status = document.getElementById("status");
+    const btn = document.getElementById("winBtn");
+
+    btn.addEventListener("click", async () => {
+      status.textContent = phrase;
+      status.hidden = false;
+      speak(phrase);            // dice la frase
+      try { await player.play(); } catch {} // reproduce tu tema tras la interacción
+    });
+  </script>
+</body>
+</html>
