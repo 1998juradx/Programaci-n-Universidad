@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Marc Marquez - Educación</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="Moto_Gp_logo.png" alt="Logo Moto GP" width="100">
+      <h2>Marc Marquez</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="educacion">
+        <h3>Educación</h3>
+        <table id="tabla-educacion">
+          <tr><th>Año</th><th>Institución</th><th>Lugar</th><th>¿Culminó?</th></tr>
+          <tr><td>2000</td><td>Academia de pilotos</td><td>Cervera, España</td><td>Sí</td></tr>
+          <tr><td>2008</td><td>Escuela de motociclismo</td><td>España</td><td>Sí</td></tr>
+        </table>
+        <h4>Agregar Estudios</h4>
+        <form id="form-educacion" autocomplete="off">
+          <label for="anio">Año:</label>
+          <select id="anio" name="anio"><option>2016</option><option>2017</option><option>2018</option></select><br>
+          <label for="institucion">Institución:</label>
+          <input type="text" id="institucion" name="institucion"><br>
+          <label for="lugar">Lugar:</label>
+          <input type="text" id="lugar" name="lugar"><br>
+          ¿Culminó?
+          <input type="radio" name="culmino" value="Sí"> Si
+          <input type="radio" name="culmino" value="No"> No<br>
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Derechos Reservados (Moto GP 2025)</p>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('form-educacion').onsubmit = function(e) {
+      e.preventDefault();
+      var anio = document.getElementById('anio').value;
+      var institucion = document.getElementById('institucion').value;
+      var lugar = document.getElementById('lugar').value;
+      var culmino = document.querySelector('input[name="culmino"]:checked');
+      console.log(culmino);
+      var culminoText = culmino ? culmino.value : '';
+      var tabla = document.getElementById('tabla-educacion').getElementsByTagName('tbody')[0] || document.getElementById('tabla-educacion');
+      var fila = tabla.insertRow(-1);
+      fila.innerHTML = '<td>' + anio + '</td><td>' + institucion + '</td><td>' + lugar + '</td><td>' + culminoText + '</td>';
+      document.getElementById('form-educacion').reset();
+      console.log(document);
+    };
+  </script>
+</body>
+</html>

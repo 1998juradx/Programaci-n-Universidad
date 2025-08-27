@@ -2,23 +2,153 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>Moto GP</title>
+    <title>Marc Marquez</title>
   </head>
   <body>
     <img src="Moto_Gp_logo.png" alt="Logo Moto GP" width="150">
-    <h1>Moto GP</h1>
+    <h2>Marc Marquez</h2>
     <ul>
-      <li><a href="13.html">Cuando ganas!</a></li>
-      <li><a href="https://www.motogp.com/es" target="_blank">Página oficial Moto GP</a></li>
-      <li><a href="https://www.facebook.com/marcmarquez1993" target="_blank">Marc Marquez, el proximo campeon del mundo</a></li>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#educacion">Educación</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="13.html">Ver más logros</a></li>
     </ul>
     <br>
+    <h3 id="inicio">Información Personal</h3>
+    <img src="Marc_Marquez.jpg" alt="Marc Marquez" width="350">
+    <ul>
+      <li><strong>Nombre:</strong> Marc Marquez</li>
+      <li><strong>Fecha de nacimiento:</strong> 17 de febrero de 1993</li>
+      <li><strong>Nacionalidad:</strong> Española</li>
+      <li><strong>Equipo actual:</strong> Ducati Lenovo Team</li>
+      <li><strong>Apodos:</strong> El tro de Cervera, La hormiga de Cervera</li>
+    </ul>
+    <h3>Resumen</h3>
+    <p>Piloto español, nacido en Cervera en 1993. Corre para Ducati Lenovo Team. Ocho títulos mundiales: 6 en MotoGP, 1 en Moto2 (2012) y 1 en 125cc (2010).</p>
+    <h3>Video destacado</h3>
+    <iframe width="350" height="197" src="https://www.youtube.com/embed/TiVbDi7Pju4" title="Marc Marquez Video" frameborder="0" allowfullscreen></iframe>
+    <h3 id="educacion">Educación</h3>
+    <table id="tabla-educacion" border="1" cellpadding="4" cellspacing="0">
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+      <tr>
+        <td>2000</td>
+        <td>Academia de pilotos</td>
+        <td>Cervera, España</td>
+        <td>Sí</td>
+      </tr>
+      <tr>
+        <td>2008</td>
+        <td>Escuela de motociclismo</td>
+        <td>España</td>
+        <td>Sí</td>
+      </tr>
+      <tr>
+        <td>2009</td>
+        <td>En el tambo paaaa</td>
+        <td>Manizales, Colombia</td>
+        <td>Sí</td>
+      </tr>
+    </table>
+    <h4>Agregar Estudios</h4>
+    <form id="form-educacion" autocomplete="off">
+      <label for="anio">Año:</label>
+      <select id="anio" name="anio">
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+      </select><br>
+      <label for="institucion">Institución:</label>
+      <input type="text" id="institucion" name="institucion"><br>
+      <label for="lugar">Lugar:</label>
+      <input type="text" id="lugar" name="lugar"><br>
+      ¿Culminó?
+      <input type="radio" id="culmino_si" name="culmino" value="Sí">
+      <label for="culmino_si">Si</label>
+      <input type="radio" id="culmino_no" name="culmino" value="No">
+      <label for="culmino_no">No</label><br>
+      <input type="submit" value="Enviar">
+    </form>
+    <script>
+      // Cuando se envía el formulario, agrega una fila a la tabla
+      document.getElementById('form-educacion').onsubmit = function(e) {
+        e.preventDefault(); // Evita recargar la página
+        var anio = document.getElementById('anio').value;
+        var institucion = document.getElementById('institucion').value;
+        var lugar = document.getElementById('lugar').value;
+        var culmino = document.querySelector('input[name="culmino"]:checked');
+        var culminoText = culmino ? culmino.value : '';
+        // Crea la nueva fila
+        var fila = document.createElement('tr');
+        fila.innerHTML =
+          '<td>' + anio + '</td>' +
+          '<td>' + institucion + '</td>' +
+          '<td>' + lugar + '</td>' +
+          '<td>' + culminoText + '</td>';
+        // Agrega la fila a la tabla
+        document.getElementById('tabla-educacion').appendChild(fila);
+        // Limpia el formulario
+        document.getElementById('form-educacion').reset();
+      };
+    </script>
+    <h3>Equipos y motos</h3>
+    <ul>
+      <li>MotoGP: Repsol Honda (2013–2023)</li>
+      <li>Gresini Ducati (2024)</li>
+      <li>Ducati Lenovo Team (desde 2025)</li>
+    </ul>
+    <h3>Récords y cifras destacadas</h3>
+    <ul>
+      <li>Campeón MotoGP en su temporada de debut 2013 y campeón más joven de la historia.</li>
+      <li>2014: 10 victorias seguidas.</li>
+      <li>2019: récord de 420 puntos y 18 podios en una temporada.</li>
+      <li>Más poles de la historia del GP: 102.</li>
+      <li>72 victorias en MotoGP (agosto 2025), última en Hungría.</li>
+    </ul>
+    <h3>Lesiones clave</h3>
+    <ul>
+      <li>Fractura del húmero derecho en 2020. Reaparece en 2021 con tres victorias.</li>
+    </ul>
+    <h3 id="experiencia">Experiencia</h3>
+    <p>
+      Marc Márquez ha sido piloto profesional desde joven. Ganó su primer título mundial en 2010 y desde entonces ha competido en las máximas categorías del motociclismo.
+    </p>
+    <p>
+      En MotoGP, debutó en 2013 y logró el campeonato en su primer año, convirtiéndose en el campeón más joven. Ha corrido para equipos como Repsol Honda y Ducati Lenovo Team.
+    </p>
+    <p>
+      Actualmente lidera el Mundial con Ducati, sumando victorias y podios cada temporada.
+    </p>
+    <b>Experiencia en Ducati (una de sus mejores carreras)</b><br>
+    <iframe width="350" height="197" src="https://www.youtube.com/embed/swjZZrYroyE" title="Video Experiencia Marc Marquez" frameborder="0" allowfullscreen></iframe>
+    <br>
+    <b>Canción favorita de Marc</b><br>
     <audio controls>
       <source src="audio.mp3" type="audio/mpeg">
       Tu navegador no soporta audio.
     </audio>
-    <br>
-    <img src="Marc_Marquez.jpg" alt="Marc Marquez" width="250">
+    <h3>Estilo de pilotaje</h3>
+    <ul>
+      <li>Agresivo y muy inclinado en curva, famoso por “saves” con codo/hombro.</li>
+      <li>Innovador en la era moderna.</li>
+    </ul>
+    <h3>Palmarés por años (títulos)</h3>
+    <ul>
+      <li>2010: Campeón 125cc.</li>
+      <li>2012: Campeón Moto2.</li>
+      <li>2013, 2014, 2016, 2017, 2018, 2019: Campeón MotoGP.</li>
+    </ul>
+    <h3>Perfil</h3>
+    <ul>
+      <li><strong>Perfil:</strong> Piloto profesional de motociclismo, múltiple campeón mundial.</li>
+      <li><strong>Idiomas:</strong> Español, Inglés.</li>
+    </ul>
     <footer>
       Derechos Reservados (Moto GP 2025) https://www.motogp.com/es
     </footer>
