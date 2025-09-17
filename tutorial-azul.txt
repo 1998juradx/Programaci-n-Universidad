@@ -123,3 +123,4 @@ CAMBIOS REALIZADOS POR USUARIO-AZUL:
 - Cambio 2: Mejoré la documentación de buenas prácticas
 - Cambio 3: Agregué ejemplos de resolución de conflictos
 - Cambio 4: Agregué sección de troubleshooting común
+- Cambio 5: Finalizé la documentación completa del tutorial
