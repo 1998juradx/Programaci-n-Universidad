@@ -121,3 +121,4 @@ CAMBIOS REALIZADOS POR USUARIO-ROJO:
 - Agregué sección de cambios por usuario-rojo
 - Agregué ejemplos prácticos adicionales
 - Cambio 1: Agregué comandos de Git avanzados
+- Cambio 2: Mejoré la sección de comandos básicos
