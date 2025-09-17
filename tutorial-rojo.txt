@@ -120,3 +120,4 @@ CAMBIOS REALIZADOS POR USUARIO-ROJO:
 - Mejoré la estructura del tutorial
 - Agregué sección de cambios por usuario-rojo
 - Agregué ejemplos prácticos adicionales
+- Cambio 1: Agregué comandos de Git avanzados
