@@ -121,3 +121,4 @@ CAMBIOS REALIZADOS POR USUARIO-AZUL:
 - Agregué sección de cambios por usuario-azul
 - Cambio 1: Agregué comandos avanzados de Git
 - Cambio 2: Mejoré la documentación de buenas prácticas
+- Cambio 3: Agregué ejemplos de resolución de conflictos
