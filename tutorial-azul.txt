@@ -120,3 +120,4 @@ CAMBIOS REALIZADOS POR USUARIO-AZUL:
 - Mejoré la estructura del tutorial
 - Agregué sección de cambios por usuario-azul
 - Cambio 1: Agregué comandos avanzados de Git
+- Cambio 2: Mejoré la documentación de buenas prácticas
