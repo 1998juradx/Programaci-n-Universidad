@@ -1,0 +1,122 @@
+TUTORIAL DE GIT PARA PRINCIPIANTES
+=====================================
+
+Autor: Usuario-Rojo - Estudiante de Programación 4
+Fecha: 2025
+Tema: Fundamentos de Git y GitHub
+
+¿QUÉ ES GIT?
+============
+Git es un sistema de control de versiones que permite:
+- Guardar el historial de cambios de tus archivos
+- Trabajar en equipo sin conflictos
+- Volver a versiones anteriores de tu código
+- Crear ramas para experimentar sin afectar el código principal
+
+CONCEPTOS BÁSICOS
+=================
+
+1. REPOSITORIO (REPO)
+   - Es como una carpeta que contiene tu proyecto
+   - Puede estar en tu computadora (local) o en internet (remoto)
+
+2. COMMIT
+   - Es como una "foto" del estado de tu proyecto en un momento específico
+   - Cada commit tiene un mensaje que describe qué cambios hiciste
+
+3. RAMA (BRANCH)
+   - Es una línea de desarrollo independiente
+   - La rama principal se llama "main" o "master"
+
+4. CLONAR (CLONE)
+   - Descargar un repositorio completo desde internet a tu computadora
+
+5. PULL
+   - Descargar los cambios más recientes del repositorio remoto
+
+6. PUSH
+   - Subir tus cambios locales al repositorio remoto
+
+COMANDOS BÁSICOS DE GIT
+=======================
+
+1. CONFIGURACIÓN INICIAL
+   git config --global user.name "Tu Nombre"
+   git config --global user.email "tu@email.com"
+
+2. INICIALIZAR UN REPOSITORIO
+   git init
+
+3. VER EL ESTADO DE LOS ARCHIVOS
+   git status
+
+4. AGREGAR ARCHIVOS AL STAGING
+   git add nombre_archivo.txt
+   git add .  (agregar todos los archivos)
+
+5. HACER UN COMMIT
+   git commit -m "Mensaje descriptivo del cambio"
+
+6. VER EL HISTORIAL DE COMMITS
+   git log
+
+7. CONECTAR CON REPOSITORIO REMOTO
+   git remote add origin https://github.com/usuario/repositorio.git
+
+8. SUBIR CAMBIOS (PRIMERA VEZ)
+   git push -u origin main
+
+9. SUBIR CAMBIOS (DESPUÉS)
+   git push
+
+10. DESCARGAR CAMBIOS
+    git pull
+
+FLUJO DE TRABAJO TÍPICO
+=======================
+
+1. Hacer cambios en tus archivos
+2. git add . (agregar cambios)
+3. git commit -m "Descripción del cambio"
+4. git push (subir a GitHub/GitLab)
+
+BUENAS PRÁCTICAS
+================
+
+1. HAZ COMMITS FRECUENTES
+   - No esperes a terminar todo el proyecto
+   - Cada commit debe ser una funcionalidad completa
+
+2. MENSAJES DESCRIPTIVOS
+   - "Agregué formulario de contacto" ✓
+   - "cambios" ✗
+
+3. TRABAJA EN RAMAS
+   - Crea una rama para cada nueva funcionalidad
+   - git checkout -b nueva-funcionalidad
+
+4. SINCRONIZA REGULARMENTE
+   - git pull antes de empezar a trabajar
+   - git push cuando termines
+
+COMANDOS DE AYUDA
+=================
+
+git help                    - Ayuda general
+git help comando           - Ayuda de un comando específico
+git status                 - Ver qué archivos han cambiado
+git diff                   - Ver diferencias en los archivos
+
+CONCLUSIÓN
+==========
+Git puede parecer complicado al principio, pero con práctica se vuelve
+una herramienta indispensable para cualquier programador. ¡No te rindas!
+
+Recuerda: La práctica hace al maestro. ¡Sigue experimentando!
+
+CAMBIOS REALIZADOS POR USUARIO-ROJO:
+====================================
+- Agregué mi nombre como autor
+- Mejoré la estructura del tutorial
+- Agregué sección de cambios por usuario-rojo
+- Agregué ejemplos prácticos adicionales
