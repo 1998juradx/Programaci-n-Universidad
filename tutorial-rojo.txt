@@ -124,3 +124,4 @@ CAMBIOS REALIZADOS POR USUARIO-ROJO:
 - Cambio 2: Mejoré la sección de comandos básicos
 - Cambio 3: Agregué ejemplos de trabajo en equipo
 - Cambio 4: Agregué sección de mejores prácticas
+- Cambio 5: Completé la documentación del tutorial
