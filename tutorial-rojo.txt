@@ -122,3 +122,4 @@ CAMBIOS REALIZADOS POR USUARIO-ROJO:
 - Agregué ejemplos prácticos adicionales
 - Cambio 1: Agregué comandos de Git avanzados
 - Cambio 2: Mejoré la sección de comandos básicos
+- Cambio 3: Agregué ejemplos de trabajo en equipo
