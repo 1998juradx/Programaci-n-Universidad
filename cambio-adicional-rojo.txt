@@ -1,0 +1,12 @@
+Cambio adicional de usuario-rojo
+================================
+
+Este es un cambio adicional para hacer más visible la rama roja en el Network Graph.
+
+Fecha: 2025
+Autor: Usuario-Rojo
+
+Cambios realizados:
+- Mejora en la visibilidad de la rama
+- Documentación adicional
+- Optimización del proyecto
