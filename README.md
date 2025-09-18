@@ -1,152 +1,47 @@
-# 👋 ¡Hola! Soy Sebastian Jurado
+# 👋 Hola, Bienvenido a mi perfil
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=Estudiante+de+Ingeniería+de+Sistemas;Desarrollador+Web+Frontend;Apasionado+por+la+tecnología;Universidad+de+Manizales" alt="Typing SVG" />
-</div>
+![header sebas](https://via.placeholder.com/800x200/2F81F7/FFFFFF?text=SEBASTIAN+JUARDO+ESTUDIANTE+DE+INGENIERIA+DE+SISTEMAS)
 
----
+Soy un **ESTUDIANTE** de Ingeniería de Sistemas y Telecomunicaciones en la **Universidad de Manizales**, además de **DESARROLLADOR WEB** que ha trabajado en varios proyectos de desarrollo **WEB**, me considero un estudiante **PUNTUAL, RESPONSABLE y COMPROMETIDO** con los objetivos académicos, además de un **CURIOSO** que le gusta **APRENDER** nuevas **TECNOLOGÍAS** y compartir conocimientos con mis **COMPAÑEROS** de clase.
 
-## 🎓 Sobre Mí
+Mis principales cualidades son el **RESPETO** por las ideas de otros, el ser **PROACTIVO** ante cualquier desafío académico, el desarrollo de proyectos web con **HTML, CSS y JavaScript**, el **TRABAJO** en **EQUIPO**, la **COMUNICACIÓN** efectiva, y por último y no menos importante siempre **APASIONADO** por **APRENDER** nuevas tecnologías y nuevos **CONOCIMIENTOS**.
 
-Soy un estudiante apasionado de **Ingeniería de Sistemas y Telecomunicaciones** en la **Universidad de Manizales**, Colombia. Mi interés principal se centra en el desarrollo web frontend y la creación de experiencias digitales innovadoras.
+## Frase que me inspira:
 
-### 🚀 Objetivos Actuales
-- Dominar las tecnologías web modernas
-- Desarrollar proyectos que impacten positivamente
-- Contribuir a la comunidad de desarrolladores
-- Prepararme para el mundo laboral tecnológico
+> **La programación no es solo escribir código, es resolver problemas y crear soluciones que impacten positivamente en la vida de las personas. - Sebastian Jurado**
 
----
+💬 Pregúntame lo que quieras. Me interesa ayudar y compartir.
 
-## 🛠️ Tecnologías y Herramientas
+## 🎯 Las tecnologías que más uso: 🔝
 
-### Frontend Development
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+Git JavaScript HTML CSS 
 
-### Control de Versiones
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+## 💻 Otras Tecnologías que conozco:
 
-### Herramientas de Desarrollo
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+GitHub Vercel Bootstrap 
 
-### Sistemas Operativos
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+## ✏ Donde he estudiado: 🔝
 
----
+**Universidad de Manizales** - Ingeniería de Sistemas y Telecomunicaciones
 
-## 📚 Proyectos Destacados
+## ⚒️ Trabajo Actualmente:
 
-### 🏍️ Proyecto Moto GP
-**Descripción:** Sitio web completo dedicado al mundo del MotoGP con información de pilotos, equipos y estadísticas.
+Desarrollando proyectos web como estudiante universitario
 
-**Tecnologías:** HTML5, CSS3, JavaScript
-**Características:**
-- Diseño responsive
-- Galería de imágenes
-- Formularios interactivos
-- Integración de audio
+## 🌎 Encuéntrame en las siguientes redes sociales:
 
-**Enlace:** [Ver Proyecto](https://programaci-n-universidad.vercel.app)
+- 📧 Email: s.jurado@equipo-ia.com
+- 🐙 GitHub: [1998juradx](https://github.com/1998juradx)
+- 🌐 Portfolio: [programaci-n-universidad.vercel.app](https://programaci-n-universidad.vercel.app)
 
-### 📖 Tutoriales de Programación
-**Descripción:** Colección de tutoriales y guías de programación para estudiantes.
+## 📈 Algunas de mis estadísticas:
 
-**Tecnologías:** Markdown, Git
-**Características:**
-- Documentación detallada
-- Ejemplos prácticos
-- Guías paso a paso
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=1998juradx&show_icons=true&theme=tokyonight&hide_border=true)
 
----
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=1998juradx&layout=compact&theme=tokyonight&hide_border=true)
 
-## 📊 Estadísticas de GitHub
+## 🚀 Proyectos Destacados:
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=1998juradx&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1998juradx&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
----
-
-## 🎯 Metas y Objetivos
-
-### 🎓 Académicos
-- [x] Completar cursos de programación web
-- [x] Desarrollar proyectos prácticos
-- [ ] Participar en competencias de programación
-- [ ] Realizar pasantías en empresas tecnológicas
-
-### 💻 Profesionales
-- [ ] Dominar frameworks modernos (React, Vue.js)
-- [ ] Aprender desarrollo backend
-- [ ] Contribuir a proyectos open source
-- [ ] Crear mi portafolio personal
-
-### 🌱 Aprendizaje Continuo
-- [ ] Cursos de algoritmos y estructuras de datos
-- [ ] Certificaciones en tecnologías web
-- [ ] Participación en comunidades de desarrolladores
-- [ ] Lectura de libros técnicos
-
----
-
-## 🏫 Universidad de Manizales
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Universidad_de_Manizales-2E8B57?style=for-the-badge&logo=graduation-cap&logoColor=white" alt="Universidad de Manizales" />
-</div>
-
-**Programa:** Ingeniería de Sistemas y Telecomunicaciones  
-**Ubicación:** Manizales, Caldas, Colombia  
-**Enfoque:** Desarrollo de software, redes y telecomunicaciones
-
----
-
-## 📈 Actividad Reciente
-
-<!--START_SECTION:activity-->
-1. 🎉 Creé el repositorio [Programaci-n-Universidad](https://github.com/1998juradx/Programaci-n-Universidad)
-2. 📝 Actualicé el tutorial de Git para principiantes
-3. 🚀 Desplegué el proyecto Moto GP en Vercel
-4. 🔧 Configuré SSH para GitHub
-5. 📚 Documenté el proceso de trabajo en equipo con Git
-<!--END_SECTION:activity-->
-
----
-
-## 🤝 Conecta Conmigo
-
-<div align="center">
-  <a href="mailto:s.jurado@equipo-ia.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/1998juradx">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://programaci-n-universidad.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-</div>
-
----
-
-## 💡 Frase Inspiradora
-
-> *"La programación no es solo escribir código, es resolver problemas y crear soluciones que impacten positivamente en la vida de las personas."*
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=1998juradx&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  
-  **¡Gracias por visitar mi perfil!** 🚀
-</div>
+- **Proyecto Moto GP**: Sitio web completo sobre MotoGP
+- **Tutoriales de Git**: Guías para estudiantes de programación
+- **Portfolio Web**: Colección de trabajos universitarios
