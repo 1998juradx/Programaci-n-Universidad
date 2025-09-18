@@ -1,0 +1,12 @@
+Cambio adicional de usuario-azul
+===============================
+
+Este es un cambio adicional para hacer más visible la rama azul en el Network Graph.
+
+Fecha: 2025
+Autor: Usuario-Azul
+
+Cambios realizados:
+- Mejora en la visibilidad de la rama
+- Documentación adicional
+- Optimización del proyecto
